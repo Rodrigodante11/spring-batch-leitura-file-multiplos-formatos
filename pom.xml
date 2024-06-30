@@ -5,15 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.1</version>
+		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rodrigo.springbatch</groupId>
 	<artifactId>springBatchleituraArquivoMultiplosFormatos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springBatchleituraArquivoMultiplosFormatos</name>
-	<description>springBatchleituraArquivoMultiplosFormatos</description>
-	<url/>
+	<description>Job que lê arquivos com múltiplos formatos de dados.</description>	<url/>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
