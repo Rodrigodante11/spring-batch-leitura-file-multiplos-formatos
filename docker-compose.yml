@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  database:
+    restart: always
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: spring_batch
+    ports:
+      - "5432:5432"  # - local:docker
+
+    volumes: # aonde ficara os dados apos derrubar o container
+      - pg-data:/var/lib/postgresql/data
+
+volumes:
+  pg-data:
